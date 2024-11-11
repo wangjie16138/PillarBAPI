@@ -5,8 +5,8 @@ import numpy as np
 import torch
 import tqdm
 
-from pcdet.models import load_data_to_gpu
-from pcdet.utils import common_utils
+from PillarBAPI.models import load_data_to_gpu
+from PillarBAPI.utils import common_utils
 
 
 def statistics_info(cfg, ret_dict, metric, disp_dict):
